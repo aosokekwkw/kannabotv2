@@ -21,10 +21,10 @@ import { fileURLToPath } from 'url'
 import moment from 'moment-timezone'
 
 /*============= WAKTU =============*/
-let wibh = moment.tz('Asia/Jakarta').format('HH')
-    let wibm = moment.tz('Asia/Jakarta').format('mm')
-    let wibs = moment.tz('Asia/Jakarta').format('ss')
-    let wktuwib = `${wibh} H ${wibm} M ${wibs} S`
+let wibh = moment.tz('Asia/Kalimantan').format('HH')
+    let witm = moment.tz('Asia/Kalimantan').format('mm')
+    let wits = moment.tz('Asia/Kalimantan').format('ss')
+    let wktuwit = `${with} H ${witm} M ${wits} S`
     
     let d = new Date(new Date + 3600000)
     let locale = 'id'
@@ -116,7 +116,7 @@ global.APIKeys = { // APIKey Here
 
 /*============== WATERMARK ==============*/
 global.wm = '                「 Fauzi BOT あ⁩ 」' //Main Watermark
-global.wm2 = 'Fauzu'
+global.wm2 = 'Fauzi'
 global.wm3 = '⫹⫺ FauziBotz-Md'
 global.botdate = `⫹⫺ 𝗗𝗮𝘁𝗲: ${week} ${date}`
 global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${wktuwit}`
